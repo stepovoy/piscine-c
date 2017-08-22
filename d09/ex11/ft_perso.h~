@@ -1,0 +1,25 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_perso.h                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nmatushe <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2016/09/09 12:00:25 by nmatushe          #+#    #+#             */
+/*   Updated: 2016/09/09 12:07:11 by nmatushe         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef __FT_PERSO_H
+# define __FT_PERSO_H
+# include <string.h>
+# define SAVE_AUSTIN_POWERS "BY ALL MEANS POSSIBLE"
+
+typedef	struct		s_perso
+{
+	char	*name;
+	float	life;
+	int		age;
+	char	*profession;
+}					t_perso;
+#endif

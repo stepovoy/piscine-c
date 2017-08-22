@@ -1,0 +1,508 @@
+Last login: Fri Sep  9 08:59:50 on ttys000
+e1r10p1% ldapsearch uid="mkrutik"
+SASL/GSSAPI authentication started
+SASL username: astepovy@UNIT.UA
+SASL SSF: 112
+SASL data security layer installed.
+# extended LDIF
+#
+# LDAPv3
+# base <dc=unit,dc=ua> (default) with scope subtree
+# filter: uid=mkrutik
+# requesting: ALL
+#
+
+# mkrutik, 2016, people, unit.ua
+dn: uid=mkrutik,ou=2016,ou=people,dc=unit,dc=ua
+cn: Maksym Krutik
+gidNumber: 4216
+givenName: Maksym
+loginShell: /bin/zsh
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: apple-user
+objectClass: ftUser
+objectClass: inetOrgPerson
+objectClass: ftExtended
+sn: Krutik
+uid: mkrutik
+uidNumber: 4372
+homeDirectory: /nfs/2016/m/mkrutik
+mobile: +380632696740
+
+# search result
+search: 5
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1
+e1r10p1% ldapsearch uid="rhakh"
+SASL/GSSAPI authentication started
+SASL username: astepovy@UNIT.UA
+SASL SSF: 112
+SASL data security layer installed.
+# extended LDIF
+#
+# LDAPv3
+# base <dc=unit,dc=ua> (default) with scope subtree
+# filter: uid=rhakh
+# requesting: ALL
+#
+
+# rhakh, 2016, people, unit.ua
+dn: uid=rhakh,ou=2016,ou=people,dc=unit,dc=ua
+cn: Roman Hakh
+gidNumber: 4216
+givenName: Roman
+loginShell: /bin/zsh
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: apple-user
+objectClass: ftUser
+objectClass: inetOrgPerson
+objectClass: ftExtended
+sn: Hakh
+uid: rhakh
+uidNumber: 4337
+homeDirectory: /nfs/2016/r/rhakh
+mobile: +380978464256
+
+# search result
+search: 5
+result: 0 Success
+
+# numResponses: 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----:---F1  *scratch*      All L1     (Fundamental)---------------------------
+# numEntries: 1
+e1r10p1% ls -l
+total 218
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----:---F1  *scratch*      All L1     (Fundamental)---------------------------
+drwx------   3 astepovy  2016  4096 Sep  1 17:28 Applications
+drwx------   5 astepovy  2016  4096 Sep  9 08:56 Desktop
+drwx------   2 astepovy  2016  4096 Aug 29 16:07 Documents
+drwx------   3 astepovy  2016  4096 Sep  8 17:48 Downloads
+drwxr-xr-x@ 35 astepovy  2016  4096 Sep  9 08:58 Library
+drwx------   2 astepovy  2016  4096 Aug 29 16:07 Movies
+drwx------   3 astepovy  2016  4096 Sep  2 11:16 Music
+drwx------   2 astepovy  2016  4096 Aug 29 16:07 Pictures
+-rwxr-xr-x   1 astepovy  2016  8472 Sep  8 21:28 a.out
+drwxr-xr-x  14 astepovy  2016  4096 Sep  1 15:16 d00
+drwxr-xr-x  12 astepovy  2016  4096 Aug 30 18:39 d01
+drwxr-xr-x  11 astepovy  2016  4096 Aug 31 19:32 d02
+drwxr-xr-x  13 astepovy  2016  4096 Sep  2 21:16 d03
+drwxr-xr-x  11 astepovy  2016  4096 Sep  3 20:36 d04
+drwxr-xr-x  27 astepovy  2016  4096 Sep  6 20:58 d05
+drwxr-xr-x   8 astepovy  2016  4096 Sep  7 21:15 d06
+drwxr-xr-x   4 astepovy  2016  4096 Sep  7 13:15 d06_cl
+drwxr-xr-x   8 astepovy  2016  4096 Sep  8 21:46 d06_cll
+drwxr-xr-x   8 astepovy  2016  4096 Sep  8 11:31 d06clone
+drwxr-xr-x   8 astepovy  2016  4096 Sep  8 21:33 d07
+drwxr-xr-x  27 astepovy  2016  4096 Sep  8 17:59 d09
+-rw-r--r--   1 astepovy  2016  3606 Sep  7 13:17 ex00.zip
+-rw-r--r--   1 astepovy  2016  1193 Sep  8 21:28 print_bits.c
+-rw-r--r--   1 astepovy  2016  1172 Sep  8 21:11 print_bits.c~
+drwxr-xr-x   4 astepovy  2016  4096 Sep  6 13:29 rush00
+-rw-r--r--   1 astepovy  2016   344 Sep  7 11:40 test.c
+-rw-r--r--   1 astepovy  2016   344 Sep  7 11:39 test.c~
+-rwxr-xr-x   1 astepovy  2016  8496 Sep  7 11:40 test.exe
+e1r10p1% cd d07
+e1r10p1% cd ../d09
+e1r10p1% ls -l
+total 192
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 18:08 ex00
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 19:02 ex01
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 21:47 ex02
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 21:47 ex03
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 21:47 ex04
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex05
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex06
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex07
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex08
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex09
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex10
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex11
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex12
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex13
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex14
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex15
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex16
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex17
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex18
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex19
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex20
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex21
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex22
+drwxr-xr-x  2 astepovy  2016  4096 Sep  8 17:59 ex23
+e1r10p1% cd ex01
+e1r10p1% ls -l
+total 5
+-rw-r--r--  1 astepovy  2016  1398 Sep  8 19:02 ft_takes_place.c
+-rw-r--r--  1 astepovy  2016   892 Sep  8 18:44 ft_takes_place.c~
+e1r10p1% cd ../ex03
+e1r10p1% ls -l
+total 2
+-rw-r--r--  1 astepovy  2016  891 Sep  8 21:47 #defuse.sh#
+-rw-r--r--  1 astepovy  2016    0 Sep  8 19:29 defuse.sh
+e1r10p1% emacs defuse.sh
+
+zsh: suspended  emacs defuse.sh
+e1r10p1% emacs defuse.sh
+e1r10p1% sh defuse.sh
+stat: bomb.txt: stat: No such file or directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----:---F1  *scratch*      All L1     (Fundamental)---------------------------
+e1r10p1% ls -l
+total 1
+-rw-r--r--  1 astepovy  2016  69 Sep  9 09:23 defuse.sh
+-rw-r--r--  1 astepovy  2016   0 Sep  8 19:29 defuse.sh~
+e1r10p1% pwd
+/nfs/2016/a/astepovy/d09/ex03
+e1r10p1% git add defuse.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----:---F1  *scratch*      All L1     (Fundamental)---------------------------
+#!/bin/sh
+cat $1 | grep -i -E "Nicolas\tBomber|Bomber\tNicolas"  | awk '{print $(NF-1)}\
+'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-uu-:---F1  find_nicolas_bomber.sh   All  (Shell-script[sh])------------------
+Inden#!/bin/sh
+cat $1 | grep -i -E "Nicolas\tBomber|Bomber\tNicolas"  | awk '{print $(NF-1)}'

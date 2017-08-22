@@ -1,0 +1,4 @@
+dn: uid=astepovy,ou=2016,ou=people,dc=unit,dc=ua
+changetype:modify
+add:mobile
+mobile:+380930207656

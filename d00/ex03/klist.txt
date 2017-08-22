@@ -1,0 +1,6 @@
+Credentials cache: API:4461
+        Principal: astepovy@UNIT.UA
+
+  Issued                Expires               Principal
+Aug 29 16:02:14 2016  Aug 30 02:02:08 2016  krbtgt/UNIT.UA@UNIT.UA
+Aug 29 20:45:39 2016  Aug 30 02:02:08 2016  ldap/ldap.unit.ua@UNIT.UA
